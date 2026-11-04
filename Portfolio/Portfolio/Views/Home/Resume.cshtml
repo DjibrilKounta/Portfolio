@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "- CV";
+    ViewData["HeaderTitle"] = "Mon CV";
+    ViewData["HeaderSubtitle"] = null;
+    ViewData["HeaderText"] = "Consultez ou téléchargez mon CV en français et en anglais.";
+    ViewData["HeaderButton"] = null;
+}
+
+<section class="container py-5">
+    <h2 class="display-5 fw-bold text-primary text-center mb-4">Mon parcours professionnel</h2>
+    <div class="row justify-content-center mb-4">
+        <div class="col-lg-10">
+            <p>Titulaire d’une licence en génie informatique, je poursuis un DEC en informatique au Cégep du Vieux Montréal. Mon parcours associe le soutien informatique, le service aux utilisateurs et le développement d’applications web et desktop.</p>
+            <p>Mes CV présentent mes expériences, mes compétences et une sélection de projets. Je suis ouvert aux possibilités d’emploi en informatique.</p>
+        </div>
+    </div>
+    <div class="row g-4 justify-content-center">
+        <div class="col-12 col-lg-6" lang="fr">
+            <article class="card shadow-sm h-100">
+                <a href="~/doc/FR.pdf" asp-append-version="true" target="_blank" rel="noopener noreferrer" aria-label="Consulter le CV">
+                    <img src="~/img/FR.png" asp-append-version="true" class="card-img-top" alt="Aperçu du CV de Djibril Kounta en français" loading="lazy" width="980" height="1268">
+                </a>
+                <div class="card-body text-center">
+                    <h3 class="h4 fw-bold text-primary">CV français</h3>
+                    <p class="text-muted">Version française de mon curriculum vitae.</p>
+                    <div class="d-flex flex-wrap gap-2 justify-content-center">
+                        <a href="~/doc/FR.pdf" asp-append-version="true" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Consulter le CV</a>
+                        <a href="~/doc/FR.pdf" asp-append-version="true" download="Djibril_Kounta_CV_FR.pdf" class="btn btn-outline-primary"><i class="bi bi-download" aria-hidden="true"></i> Télécharger le PDF</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="col-12 col-lg-6" lang="en">
+            <article class="card shadow-sm h-100">
+                <a href="~/doc/EN.pdf" asp-append-version="true" target="_blank" rel="noopener noreferrer" aria-label="View résumé">
+                    <img src="~/img/EN.png" asp-append-version="true" class="card-img-top" alt="Preview of Djibril Kounta’s English résumé" loading="lazy" width="980" height="1268">
+                </a>
+                <div class="card-body text-center">
+                    <h3 class="h4 fw-bold text-primary">English résumé</h3>
+                    <p class="text-muted">English version of my résumé.</p>
+                    <div class="d-flex flex-wrap gap-2 justify-content-center">
+                        <a href="~/doc/EN.pdf" asp-append-version="true" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> View résumé</a>
+                        <a href="~/doc/EN.pdf" asp-append-version="true" download="Djibril_Kounta_CV_EN.pdf" class="btn btn-outline-primary"><i class="bi bi-download" aria-hidden="true"></i> Download PDF</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>

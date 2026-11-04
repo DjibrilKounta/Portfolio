@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["HeaderTitle"] = "Mes Projets";
+    ViewData["HeaderSubtitle"] = null;
+    ViewData["HeaderText"] = "Découvrez quelques-uns de mes projets logiciels et jeux vidéo.";
+    ViewData["HeaderButton"] = null;
+}
+
+
+@using Portfolio.Models.Models
+@model List<Project>
+
+<div class="container py-5">
+
+    <div class="row g-4">
+
+        @foreach (var project in Model)
+        {
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card project-card h-100 shadow">
+
+                    <div class="project-card__media">
+                        <div class="project-card__image-frame">
+                        @if (!string.IsNullOrWhiteSpace(project.Image))
+                        {
+                            <img src="@project.Image"
+                                 class="project-card__image"
+                                 alt="@project.Name"
+                                 loading="lazy"
+                                 onerror="this.hidden = true;">
+                        }
+                        </div>
+                    </div>
+
+                    <div class="card-body d-flex flex-column">
+
+                        <span class="badge bg-primary mb-2">
+                            @project.Category
+                        </span>
+
+                        <h4 class="fw-bold">
+                            @project.Name
+                        </h4>
+
+                        <p>
+                            @project.Description
+                        </p>
+
+                        <h6>Technologies</h6>
+
+                        <div class="mb-3">
+                            @foreach (var tech in project.Technologies)
+                            {
+                                <span class="badge bg-secondary me-1 mb-1">
+                                    @tech
+                                </span>
+                            }
+                        </div>
+
+                        <h6>Fonctionnalités principales</h6>
+
+                        <ul>
+                            @foreach (var feature in project.Features)
+                            {
+                                <li>@feature</li>
+                            }
+                        </ul>
+
+                        @if (!string.IsNullOrWhiteSpace(project.GithubUrl) || !string.IsNullOrWhiteSpace(project.DemoUrl))
+                        {
+                        <div class="mt-auto d-flex gap-2">
+
+                            @if (!string.IsNullOrWhiteSpace(project.GithubUrl))
+                            {
+                            <a href="@project.GithubUrl"
+                               target="_blank"
+                               class="btn btn-dark w-50">
+                                <i class="bi bi-github"></i>
+                                GitHub
+                            </a>
+                            }
+
+                            @if (!string.IsNullOrWhiteSpace(project.DemoUrl))
+                            {
+                            <a href="@project.DemoUrl"
+                               target="_blank"
+                               class="btn btn-primary w-50">
+                                <i class="bi bi-box-arrow-up-right"></i>
+                                Démo
+                            </a>
+                            }
+
+                        </div>
+                        }
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "category": "WPF",
+    "name": "DiskMaster",
+    "image": "/img/projects/diskmaster.png",
+    "description": "Application de maintenance système développée avec C#, .NET et WPF permettant d'analyser et d'optimiser l'espace disque.",
+    "technologies": [ "C#", ".NET", "WPF", "MVVM" ],
+    "features": [
+      "Analyse du stockage",
+      "Nettoyage automatique",
+      "Gestion de l'espace disque"
+    ],
+    "githubUrl": "https://github.com/DjibrilKounta/DiskMaster",
+    "demoUrl": "https://github.com/DjibrilKounta/DiskMaster/releases"
+  },
+  {
+    "id": 2,
+    "category": "WPF",
+    "name": "BudgetFlow",
+    "image": "/img/projects/budgetflow.png",
+    "description": "Gestionnaire de budget personnel avec suivi des dépenses et visualisation graphique.",
+    "technologies": [ "C#", ".NET", "WPF", "SQLite" ],
+    "features": [
+      "Gestion des revenus et dépenses",
+      "Graphiques statistiques",
+      "Export PDF"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 3,
+    "category": "WPF",
+    "name": "TaskFlow",
+    "image": "/img/projects/taskflow.png",
+    "description": "Gestionnaire de tâches moderne inspiré de Trello.",
+    "technologies": [ "C#", ".NET", "WPF", "SQLite" ],
+    "features": [
+      "Tableaux Kanban",
+      "Gestion des priorités",
+      "Notifications"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 4,
+    "category": "WPF",
+    "name": "MediaVault",
+    "image": "/img/projects/mediavault.png",
+    "description": "Bibliothèque multimédia pour organiser films, jeux et livres.",
+    "technologies": [ "C#", ".NET", "WPF", "Entity Framework" ],
+    "features": [
+      "Recherche avancée",
+      "Gestion des collections",
+      "Statistiques"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 5,
+    "category": "ASP.NET MVC",
+    "name": "ADEBOG",
+    "image": "/img/projects/adebog.png",
+    "description": "Application de gestion pour club de boxe développée avec ASP.NET MVC.",
+    "technologies": [ "C#", "ASP.NET MVC", "SQL Server", "Bootstrap" ],
+    "features": [
+      "Gestion des membres",
+      "Gestion des inscriptions",
+      "Administration"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 6,
+    "category": "ASP.NET MVC",
+    "name": "JobTracker",
+    "image": "/img/projects/jobtracker.png",
+    "description": "Application de suivi des candidatures d'emploi.",
+    "technologies": [ "C#", "ASP.NET MVC", "SQL Server", "Bootstrap" ],
+    "features": [
+      "Suivi des candidatures",
+      "Authentification",
+      "Tableau de bord"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 7,
+    "category": "ASP.NET MVC",
+    "name": "InventoryPro",
+    "image": "/img/projects/inventorypro.png",
+    "description": "Gestion complète d'inventaire et des stocks.",
+    "technologies": [ "C#", "ASP.NET MVC", "SQL Server" ],
+    "features": [
+      "Gestion des produits",
+      "Gestion des commandes",
+      "Rapports"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 8,
+    "category": "ASP.NET MVC",
+    "name": "DevForum",
+    "image": "/img/projects/devforum.png",
+    "description": "Forum communautaire destiné aux développeurs.",
+    "technologies": [ "C#", "ASP.NET MVC", "SQL Server" ],
+    "features": [
+      "Authentification",
+      "Publications",
+      "Commentaires"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 9,
+    "category": "Unity",
+    "name": "BattleShip 3D",
+    "image": "/img/projects/battleship3d.png",
+    "description": "Jeu de bataille navale en 3D développé avec Unity.",
+    "technologies": [ "Unity", "C#" ],
+    "features": [
+      "Déplacement des navires",
+      "Détection des collisions",
+      "Gestion des tours"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 10,
+    "category": "Unity",
+    "name": "Endless Runner",
+    "image": "/img/projects/endlessrunner.png",
+    "description": "Runner 3D avec génération procédurale.",
+    "technologies": [ "Unity", "C#" ],
+    "features": [
+      "Génération procédurale",
+      "Power-ups",
+      "Classement"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 11,
+    "category": "Unity",
+    "name": "Dungeon Explorer",
+    "image": "/img/projects/dungeonexplorer.png",
+    "description": "Roguelike 3D avec progression et IA.",
+    "technologies": [ "Unity", "C#" ],
+    "features": [
+      "IA ennemie",
+      "Inventaire",
+      "Sauvegarde"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 12,
+    "category": "Unity",
+    "name": "Tower Defense",
+    "image": "/img/projects/towerdefense.png",
+    "description": "Jeu Tower Defense avec système d'amélioration.",
+    "technologies": [ "Unity", "C#" ],
+    "features": [
+      "Pathfinding",
+      "Amélioration des tours",
+      "Vagues d'ennemis"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 13,
+    "category": "C++ / Raylib",
+    "name": "Space Survivor",
+    "image": "/img/projects/spacesurvivor.png",
+    "description": "Survivor en 2D inspiré de Vampire Survivors.",
+    "technologies": [ "C++", "Raylib" ],
+    "features": [
+      "Vagues infinies",
+      "Système d'améliorations",
+      "Boss"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 14,
+    "category": "C++ / Raylib",
+    "name": "Platform Adventure",
+    "image": "/img/projects/platformadventure.png",
+    "description": "Plateformer 2D avec physique et ennemis.",
+    "technologies": [ "C++", "Raylib" ],
+    "features": [
+      "Physique",
+      "Checkpoints",
+      "Combats"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 15,
+    "category": "C++ / Raylib",
+    "name": "Chess Engine",
+    "image": "/img/projects/chessengine.png",
+    "description": "Jeu d'échecs avec intelligence artificielle.",
+    "technologies": [ "C++", "Raylib" ],
+    "features": [
+      "IA Minimax",
+      "Historique des coups",
+      "Sauvegarde"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  },
+  {
+    "id": 16,
+    "category": "C++ / Raylib",
+    "name": "Physics Sandbox",
+    "image": "/img/projects/physicssandbox.png",
+    "description": "Sandbox de physique permettant de créer et simuler des objets.",
+    "technologies": [ "C++", "Raylib" ],
+    "features": [
+      "Gravité",
+      "Collisions",
+      "Création d'objets"
+    ],
+    "githubUrl": "",
+    "demoUrl": ""
+  }
+]
